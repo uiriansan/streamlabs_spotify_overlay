@@ -10,7 +10,7 @@ app.use(express.static('./'));
 /*   ###################################    */
 // https://developer.spotify.com/dashboard/
 const client_id = '#######';
-const redirec_url = '#######';
+const redirec_url = 'http://localhost:3535';
 /*   ###################################    */
 /*   ###################################    */
 
