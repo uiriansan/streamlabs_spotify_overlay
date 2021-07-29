@@ -22,3 +22,9 @@
 5. In "URL", type "http://localhost:3535/";
 6. Set "Width" and "Height" to 400x180 and press "Done";
 7. Open Spotify App and press Play;
+
+### ###
+https://codepen.io/pig3onkick3r/pen/XopEKv?editors=0000
+https://codepen.io/pierreburton/pen/ZgpEaa
+https://stackoverflow.com/a/52453462
+### ###
