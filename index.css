@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#overlay {
+    width: 380px;
+    height: 135px;
+    display: flex;
+    margin: 0px;
+	box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    overflow: hidden;
+    border-radius: 15px 0 0 15px;
+    transition: all .3s ease;
+    display: none;
+}
+
+.info {
+    max-width: calc(380px - 180px);
+    flex: 1;
+    padding: 25px;
+    transition: all .3s ease;
+}
+
+#track_title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#artist_name {
+    font-size: 1rem;
+    opacity: .8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#cover_image {
+    width: 135px;
+    background-size: cover;
+    position: relative;
+}
+.cover_gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .3s ease;
+}
+
+#track {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#timestamp {
+    position: absolute;
+    z-index: 1;
+    margin-top: 15px;
+    width: 335px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    height: 10px;
+    border: none;
+}
+
+.elapsed-timestamp {
+    height: 100%;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    opacity: .8;
+    max-width: 335px;
+}
