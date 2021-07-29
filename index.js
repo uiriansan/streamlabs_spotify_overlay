@@ -2,7 +2,7 @@
 // https://developer.spotify.com/dashboard/
 const client_id = '#######';
 const client_secret = '#######';
-const redirec_url = '#######';
+const redirec_url = 'http://localhost:3535';
 
 const overlay = document.getElementById('overlay');
 const trackEl = document.getElementById('track_title');
