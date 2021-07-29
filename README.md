@@ -21,3 +21,4 @@
 4. Rename to whatever you want and press "Add";
 5. In "URL", type "http://localhost:3535/";
 6. Set "Width" and "Height" to 400x180 and press "Done";
+7. Open Spotify App and press Play;
