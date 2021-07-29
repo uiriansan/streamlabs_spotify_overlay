@@ -4,12 +4,14 @@
 # Node.js
 
 1. Clone this repo;
-2. Open "app.js" and "index.js" with your text editor;
-3. Go to https://developer.spotify.com/dashboard/ and log in with your Spotify account;
-4. Create a new app;
-5. Go to YourApp > Edit settings;
-6. Add "http://localhost:3535" to Redirect URIs and press "Save";
-7. 
+2. Go to https://developer.spotify.com/dashboard/ and log in with your Spotify account;
+3. Create a new app;
+4. Go to YourApp > Edit settings;
+5. Add "http://localhost:3535" to Redirect URIs and press "Save";
+6. Open "app.js" and "index.js" with your text editor;
+7. Set the values for "client_id" and "client_secret" variables in both files;
+8. Run ```npm install```;
+9. Run ```node .```;
 
 # Streamlabs:
 
