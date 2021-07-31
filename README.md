@@ -4,7 +4,7 @@
 # Node.js
 
 1. Clone this repo;
-2. Go to https://developer.spotify.com/dashboard/ and log in with your Spotify account;
+2. Go to https://developer.spotify.com/dashboard/ and sign in with your Spotify account;
 3. Create a new app;
 4. Go to YourApp > Edit settings;
 5. Add "http://localhost:3535" to Redirect URIs and press "Save";
